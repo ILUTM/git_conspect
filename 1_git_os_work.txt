@@ -1,0 +1,21 @@
+1. creating directory
+command -> mkdir dirname
+example -> mkdir ducking_project
+description -> creates new directory un current in Git Bash
+
+2. creating file
+command -> touch file_name.file_format
+example -> touch hands_away.txt
+description -> creates hands_away.txt in current directory
+
+3. changing directory (COMMON COMMAND)
+command -> cd path
+example -> cd d:/project_py
+description -> git now in d:/project_py and sees only files and dirs in here
+options:
+    -> cd ..
+    description -> return to the higher folder in path
+    example -> if current path is d:/project_py
+               cd ..
+               current path is d/
+
