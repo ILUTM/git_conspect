@@ -19,3 +19,8 @@ options:
                cd ..
                current path is d/
 
+4. show current status
+command -> git status
+description -> shows name of branch and status of files in current directory
+
+
