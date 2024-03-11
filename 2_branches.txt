@@ -3,4 +3,4 @@ command -> git branch -m old_name new_name
 example -> git branch -m master main
 description -> new shown name of branch master is main
 
-
+2. git checkout
