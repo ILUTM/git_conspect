@@ -12,7 +12,7 @@ description -> creates hands_away.txt in current directory
 command -> cd path
 example -> cd d:/project_py
 description -> git now in d:/project_py and sees only files and dirs in here
-options:
+options ->
     -> cd ..
     description -> return to the higher folder in path
     example -> if current path is d:/project_py
@@ -27,4 +27,10 @@ description -> shows name of branch and status of files in current directory
 command -> git log
 description -> show history of all commits
 
+6. show files in directory
+command -> ls
+description -> shows all files and folders in current directory
+option ->
+    -> ls -la
+    description -> shows files folders (even hidden) and info about them
 
