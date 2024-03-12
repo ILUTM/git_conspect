@@ -24,3 +24,6 @@ description -> creates new branch
 5. merge branches
 command -> git merge name_of_merged_branch
 description -> merges branches in one. use carefully
+option ->
+    git merge --abort
+    description -> cancel merging
