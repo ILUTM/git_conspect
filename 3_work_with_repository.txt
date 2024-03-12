@@ -27,6 +27,20 @@ option ->
     -> git commit --amend -m "message"
     description -> add into existing commit
 
+6. clone repository
+command -> git clone link
+description -> copies directory to current path (from git or own computer)
+
+7. name of original repository
+command -> git remote
+description -> shows name of original repository
+
+8. see all branches
+command -> git branch
+description -> shows name of branches
+option ->
+    -> git branch -a
+    description -> shows name of remote branches
 
 
 

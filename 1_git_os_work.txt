@@ -34,3 +34,6 @@ option ->
     -> ls -la
     description -> shows files folders (even hidden) and info about them
 
+7. see current directory
+command -> pwd
+description -> show path to current directory
