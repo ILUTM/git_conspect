@@ -42,5 +42,18 @@ option ->
     -> git branch -a
     description -> shows name of remote branches
 
+9. get changes and updates from original repository
+command -> git fetch
+description -> take updates from original repository
+!!! important -> fetched changes should be merged
+
+10. get changes and merge them
+command -> git pull
+description -> take changes and merge them
+
+11. push changes to repository
+command -> git push
+description -> push changes to repository (be careful)
+
 
 
