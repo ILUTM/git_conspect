@@ -9,6 +9,11 @@ description -> adds this file to repository
 
 3. canceling changes
 command -> git restore --staged file_name
+description -> should be used if "git add" changes have mistakes and should be unpinned
+(NOT affect the branch)
 
 4. canceling changes
 command -> git reset file_name
+description -> same as "git restore" BUT undo last "git commit"
+(affect the branch)
+
