@@ -16,3 +16,7 @@ description -> show the state of the repository at a particular commit
 3. switch branch
 command -> git switch branch_name
 description -> switches branch like 'git checkout branch_name'
+
+4. work in new branch
+command -> git switch -c branch_name
+description -> creates new branch
