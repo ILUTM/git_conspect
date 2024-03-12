@@ -4,3 +4,23 @@ example -> git branch -m master main
 description -> new shown name of branch master is main
 
 2. git checkout
+command -> git checkout branch_name
+description -> changes the branch of file
+
+command -> git checkout -b <new_branch_name>
+description -> creates new branch from current point and continues work in it
+
+command -> git checkout <commit_hash>
+description -> show the state of the repository at a particular commit
+
+3. switch branch
+command -> git switch branch_name
+description -> switches branch like 'git checkout branch_name'
+
+4. work in new branch
+command -> git switch -c branch_name
+description -> creates new branch
+
+5. merge branches
+command -> git merge name_of_merged_branch
+description -> merges branches in one. use carefully
