@@ -6,6 +6,9 @@ description -> initialize current directory (if haven't been initialized yet)
 command -> git add file_name
 example -> 3_work_with_repository.txt
 description -> adds this file to repository
+options ->
+    ->git add .
+        description -> adds all files in directory
 
 3. canceling changes
 command -> git restore --staged file_name
