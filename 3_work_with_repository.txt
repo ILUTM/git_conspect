@@ -17,3 +17,10 @@ command -> git reset file_name
 description -> same as "git restore" BUT undo last "git commit"
 (affect the branch)
 
+5. commit changes
+command -> git commit -m "message_of_commit"
+description -> commit update to push it on Github
+
+
+
+
