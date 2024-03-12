@@ -13,6 +13,13 @@ description -> creates new branch from current point and continues work in it
 command -> git checkout <commit_hash>
 description -> show the state of the repository at a particular commit
 
+command -> git checkout v1^
+description -> v1=tag. ^ shows that i want to see version before v1
+
 3. switch branch
 command -> git switch branch_name
 description -> switches branch like 'git checkout branch_name'
+
+4. add tag to a version
+command -> git add
+description -> add tag to a version (may be shown with git log)
