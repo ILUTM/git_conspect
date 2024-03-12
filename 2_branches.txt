@@ -27,3 +27,7 @@ description -> merges branches in one. use carefully
 option ->
     git merge --abort
     description -> cancel merging
+
+6. merge branches other way
+command -> git rebase name of branch
+description -> merge branches but more carefully
