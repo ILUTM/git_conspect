@@ -7,7 +7,7 @@ command -> git add file_name
 example -> 3_work_with_repository.txt
 description -> adds this file to repository
 options ->
-    ->git add .
+    -> git add .
         description -> adds all files in directory
 
 3. canceling changes
@@ -23,6 +23,9 @@ description -> same as "git restore" BUT undo last "git commit"
 5. commit changes
 command -> git commit -m "message_of_commit"
 description -> commit update to push it on Github
+option ->
+    -> git commit --amend -m "message"
+    description -> add into existing commit
 
 
 
