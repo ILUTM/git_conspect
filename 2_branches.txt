@@ -31,3 +31,14 @@ option ->
 6. merge branches other way
 command -> git rebase name of branch
 description -> merge branches but more carefully
+
+/=====================WHEN TO USE=====================\
+|==========rebase==========|==========merge===========|
+|-changes from rep to local|-if current branch is     |
+|directory                 | public and available for |
+|-to make merge history    | all                      |
+|more readable             |-if it's important to have|
+|                          | commit history (rebase   |
+|                          | rewrites it)             |
+\=====================================================/
+
